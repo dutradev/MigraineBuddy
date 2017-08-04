@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">MigraineBuddy</string>
+
+    <!--Welcome to Migraine Buddy -->
+    <string name="welcome_migraine_buddy">Welcome to Migraine Buddy!</string>
+    <string name="get_started">Get started with the app now!</string>
+    <string name="create_new_account">Create a New Account</string>
+    <string name="suggest_create_account">Creating your account ensures
+        that you will never lose your data, even if you change device.</string>
+    <string name="have_an_account">I Already Have An Account</string>
+
+    <!-- Create a account -->
+    <string name="sign_up_facebook">Sign up with Facebook</string>
+    <string name="sign_up_google">Sign up with Google</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="next">NEXT</string>
+    <string name="my_profile">MY PROFILE</string>
+
+    <!-- Login -->
+    <string name="login">LOGIN</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="login_google">Login with Google</string>
+    <string name="enter_register_email">Enter your Email used to register</string>
+    <string name="forgot">FORGOT</string>
+    <string name="title_activity_migraine">Migraine Buddy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Action bar -->
+    <string name="action_settings">Settings</string>
+    <string name="action_notification">Notification</string>
+
+    <!-- main migraine -->
+    <string name="tab_reports">REPORTS</string>
+    <string name="tab_me">ME</string>
+    <string name="tab_buddies">BUDDIES</string>
+    <string name="edit_migraine">RECORD A MIGRAINE</string>
+    <string name="daily_tracker">DAILY \n TRACKER</string>
+    <string name="my_records">MY \n RECORDS</string>
+    <string name="my_calendar">MY \n CALENDAR</string>
+
+    <!-- sliding menu -->
+    <string name="export">EXPORT</string>
+    <string name="leave_feedback">LEAVE FEEDBACK</string>
+    <string name="rate_us">RATE US 5 STARS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="how_to_use">HOW TO USE?</string>
+    <string name="about">ABOUT</string>
+    <string name="logout">LOGOUT</string>
+
+    <!-- buddies tab -->
+    <string name="text_share_how">Share how you feel!(140ch max)</string>
+    <string name="hcm_city_buddy">Ho Chi Minh City Buddy</string>
+    <string name="hcm_text">14 Migraine Buddy users in your city. Invite 136 more users for migraine prediction </string>
+    <string name="pressure_buddy">Pressure Buddy</string>
+    <string name="pressure_text">The pressure is currently 1007.45 millibar</string>
+    <string name="last_seen">Last seen just now</string>
+    <string name="invite_my_buddies">INVITE MY BUDDIES</string>
+    <string name="beginning_of_chat">This is the beginning of chat.</string>
+    <string name="type_here">Type here</string>
+
+    <!-- my records -->
+    <string name="myRecords">My Records</string>
+    <string name="migraine">MIGRAINE</string>
+    <string name="sleep">SLEEP</string>
+    <string name="your_automatic_sleep">Your automatic sleep detection is</string>
+    <string name="turned_off">Turned off</string>
+    <string name="no_sleep">No sleep events recorded yet!</string>
+    <string name="no_migraines">No migraines recorded yet!</string>
+    <string name="action_add">Add</string>
+    <string name="action_export">Export</string>
+    <string name="action_ask">Ask</string>
+
+    <!-- notification -->
+    <string name="notifications">Notifications</string>
+    <string name="welcome">Welcome!</string>
+    <string name="congrats">Congrats on your first record!</string>
+    <string name="find_out_your_common">Find out your common migraine start times after 3 records!</string>
+
+    <!-- Daily tracker -->
+    <string name="confirm">CONFIRM</string>
+    <string name="no_idea">No idea</string>
+    <string name="stress">Stress</string>
+    <string name="lack_of_sleep">Lack of sleep</string>
+    <string name="woke_up">Woke up 2h late</string>
+    <string name="interrupted_sleep">Interrupted sleep</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="skipped_meal">Skipped meal</string>
+    <string name="very_variable">Very variable weather</string>
+    <string name="storm">Storm</string>
+    <string name="humidity_above">Humidity above 80%</string>
+    <string name="neck_pain">Neck pain</string>
+    <string name="Alcohol">Alcohol</string>
+    <string name="bright_sun">Bright sun/ dehydration</string>
+    <string name="caffeine">Caffeine</string>
+    <string name="dehydration">Dehydration</string>
+    <string name="processed_food">Processed food</string>
+    <string name="allergy_reaction">Allergy reaction</string>
+    <string name="odd_strong_smeel">Odd/Strong smell</string>
+    <string name="rebound_headache">Rebound headache</string>
+    <string name="sinus">Sinus</string>
+    <string name="aged_cheese">Aged cheese</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="arrange_items">Arrange items</string>
+    <string name="add_new">Add New</string>
+    <string name="catch_warn">Catch</string>
+
+    <!-- days in week -->
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <!-- Catch -->
+    <string name="your_best_catches">HERE ARE YOUR BEST CATCHES</string>
+    <string name="skipped_beta_blockers">Skipped Beta \n blockers</string>
+    <string name="skipped_magnesium">Skipped \n Magnesium</string>
+    <string name="track_them_anymore">You get them, you nailed them, guilty, not guilty, free your mind! No need to track them anymore.</string>
+    <string name="let_catch_more">Lets catch more!</string>
+
+    <!-- Instruction Trigger Inspector -->
+    <string name="instruction1">Welcome to Trigger Inspector. It is here to help you identify and discover triggers.</string>
+    <string name="instruction2">This is how your calendar will look after one week of tracking.</string>
+    <string name="instruction3">Triggers are colour coded in shades of blue and red, triggers recorded today appear dark blue.</string>
+    <string name="instruction4">Try tracking your potential triggers for the last 3 days.</string>
+    <string name="back">Back</string>
+    <string name="out_of_risk">out of risk</string>
+    <string name="high_suspect">high suspect</string>
+    <string name="today">today</string>
+    <string name="start_now">START NOW</string>
+
+    <!-- Sleep time -->
+    <string name="sleep_time">Sleep Time</string>
+    <string name="awake_time">Awake Time</string>
+    <string name="duration">Duration 10:00</string>
+    <string name="sleep_morning_notes">Sleep morning notes</string>
+    <string name="yesterday_notes">Yesterday notes</string>
+
+    <string name="text_setting1">Hide my profile (Somebody knowing my email, wont be able to know that I use Migraine Buddy</string>
+    <string name="text_setting2">Sent alterts to my buddies when I have migraines </string>
+    <string name="text_setting3">Alters will be sent when I have migraines of pain 5 or more</string>
+    <string name="text_setting4">What is your preferred unit of measurement</string>
+    <string name="text_setting5">Daily reminder</string>
+    <string name="text_setting6">Remind me if I dont record by</string>
+    <string name="text_setting7">Automatic Sleep Detection</string>
+    <string name="text_setting8">Around what time do you usually go to bed</string>
+    <string name="text_setting9">Around what time do you usually wake up</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_welcome_screen">#B2DFDB</color>
+    <color name="color_welcome_text">#004D40</color>
+    <color name="color_welcome_text2">#00695C</color>
+    <color name="color_create_account">#00796B</color>
+    <color name="color_next_button">#BDBDBD</color>
+    <color name="color_forgot_button">#00838F</color>
+
+    <!-- main UI -->
+    <color name="color_toolbar">#334E63</color>
+    <color name="color_layout_center">#DEDCDD</color>
+    <color name="color_edit_migraine">#F47B5C</color>
+    <color name="color_bottom_menu">#04AFB9</color>
+    <color name="color_gradient_1">#F4FCFF</color>
+    <color name="color_gradient_2">#DDDCDA</color>
+    <color name="color_gradient_3">#E9E1DE</color>
+
+    <!-- sliding menu -->
+    <color name="color_sliding_menu">#272F32</color>
+    <color name="color_text_menu">#04AEBB</color>
+
+    <!-- buddies tab -->
+    <color name="color_share_how">#3F7A8C</color>
+    <color name="color_share_how_bg">#9AB1B9</color>
+    <color name="frame_chat">#42798D</color>
+
+    <!-- my records tap -->
+    <color name="color_your_automatic_sleep">#C8E0E4</color>
+    <color name="color_no_sleep">#6E6F71</color>
+
+    <!-- notifications -->
+    <color name="color_new_notify">#FB7B3A</color>
+
+    <!-- catch -->
+    <color name="color_catch_bg">#334E63</color>
+    <color name="color_medication">#82B3EE</color>
+    <color name="color_liquid_bottom">#DE5754</color>
+
+    <!-- days -->
+    <color name="color_sat">#D6E9ED</color>
+    <color name="color_sun">#CDDFDF</color>
+    <color name="color_mon">#F1CCC4</color>
+    <color name="color_tue">#EDA398</color>
+    <color name="color_wed">#EA8C80</color>
+    <color name="color_thu">#3A6375</color>
+    <color name="color_fri">#CDCDCD</color>
+    <color name="color_border_daily">#E8CB18</color>
+    <color name="color_fri2">#ffffff</color>
+</resources>

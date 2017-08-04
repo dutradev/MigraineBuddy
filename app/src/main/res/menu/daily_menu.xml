@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ask"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_buddy_migraine_status_unknown"
+        android:title="@string/action_ask"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_catch"
+        android:icon="@drawable/ic_catch_button"
+        android:title="@string/catch_warn"
+        app:showAsAction="always" />
+</menu>

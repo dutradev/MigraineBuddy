@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.dutradev.migrainebuddy.Menu.MyProfileActivity">
+    <RelativeLayout
+        android:id="@+id/rltTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#7DC2C9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#589DA4"
+            android:text="Optional info for a better experience"
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Email"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="duatradev.it@gmail.com"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#BCD7D8"
+                    android:id="@+id/editText3" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="First Name"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Van Duc"
+                    android:textSize="15dp"
+                    android:gravity="right"
+                    android:textColor="#BCD7D8"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/editText4"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Surname"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tran"
+                    android:gravity="right"
+                    android:textColor="#BCD7D8"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:id="@+id/editText5"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Gender"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#BCD7D8"
+                    android:id="@+id/editText6"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Birthdate"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20/07/1994"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#BCD7D8"
+                    android:id="@+id/editText7"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <Switch
+                android:layout_weight="1"
+                android:id="@+id/mySwitch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opt-in for reseach (?)"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Main Objective"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="Other"
+                        android:gravity="right"
+                        android:textColor="#BCD7D8"
+                        android:paddingRight="20dp"
+                        android:textSize="15dp"
+                        android:id="@+id/textView4" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#7CC1C8">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#06AEB9">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="CONFIRM"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

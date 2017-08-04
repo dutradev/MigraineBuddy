@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dutradev.migrainebuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Menu.MenuActivity"
+            android:label="@string/title_activity_migraine" />
+        <activity android:name=".Account.CreateAccountActivity" />
+        <activity android:name=".Account.AlreadyAccountActivity" />
+        <activity
+            android:name=".MyRecordsActivity"
+            android:label="My Records" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/notifications" />
+        <activity android:name=".ChatActivity" />
+        <activity
+            android:name=".DailyTracker.DailyTrackerActivity"
+            android:label="Daily Tracker" />
+        <activity android:name=".CatchActivity" />
+        <activity
+            android:name=".SleepTimeActivity"
+            android:label="Sleep Time" />
+        <activity
+            android:name=".Menu.SettingActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".Menu.MyProfileActivity"
+            android:label="My Profile" />
+        <activity android:name=".EditRecord.AffectedActivity" />
+        <activity android:name=".EditRecord.AuraActivity" />
+        <activity android:name=".EditRecord.DurationActivity" />
+        <activity android:name=".EditRecord.IndensityActivity" />
+        <activity android:name=".EditRecord.LocationActivity" />
+        <activity android:name=".EditRecord.MedicationActivity" />
+        <activity android:name=".EditRecord.MenstruationActivity" />
+        <activity android:name=".EditRecord.ReliefActivity" />
+        <activity android:name=".EditRecord.SymptonsActivity" />
+        <activity android:name=".EditRecord.TriggersActivity" />
+        <activity android:name=".EditRecord.AttackTypesActivity" />
+        <activity android:name=".EditRecord.NoteActivity" />
+        <activity android:name=".EditRecord.RecordMigraineActivity"></activity>
+    </application>
+
+</manifest>

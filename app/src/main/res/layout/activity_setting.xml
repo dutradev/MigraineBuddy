@@ -1,0 +1,249 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dutradev.migrainebuddy.Menu.SettingActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/rltTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="#C8E0E3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Buddies Settings"
+                        android:id="@+id/textView2"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+                <Switch
+                    android:layout_weight="1"
+                    android:id="@+id/mySwitch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_setting1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+
+                <Switch
+                    android:layout_weight="1"
+                    android:id="@+id/mySwitch2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_setting2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#000000"
+                        android:text="@string/text_setting3"
+                        android:layout_marginRight="70dp"
+                        />
+                    <ImageView
+                        android:layout_height="10dp"
+                        android:layout_width="10dp"
+                        android:background="@drawable/ic_next"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="22dp"
+                        android:backgroundTint="#660099"
+                        />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#000000"
+                        android:text="@string/text_setting4"
+                        android:layout_marginRight="70dp"
+                        />
+                    <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="Metric"
+                        android:textColor="#000000"
+                        />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="#C8E0E3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Daily Tracker Setting"
+                        android:id="@+id/textView3"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp">
+                <Switch
+                    android:layout_weight="1"
+                    android:id="@+id/mySwitch3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_setting5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#000000"
+                        android:text="@string/text_setting6"
+                        android:layout_marginRight="70dp"
+                        />
+                    <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="22:00"
+                        android:textColor="#339999"
+                        />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="#C8E0E3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Sleep Setting"
+                        android:id="@+id/textView4"
+                        android:textSize="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#000000"
+                        android:text="@string/text_setting7"
+                        android:layout_marginRight="70dp"
+                        />
+                    <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="22:00"
+                        android:textColor="#339999"
+                        />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="3">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="#000000"
+                        android:text="@string/text_setting8"
+                        android:layout_marginRight="70dp"
+                        />
+                    <TextView
+                        android:layout_height="20dp"
+                        android:layout_width="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="22:00"
+                        android:textColor="#339999"
+                        />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

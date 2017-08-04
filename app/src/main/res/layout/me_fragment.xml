@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_introduction"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/margin_20"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_edit_migraine"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEditMigraine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_migraine"
+                android:textColor="@android:color/white"
+                android:background="@color/color_edit_migraine"
+                android:drawableRight="@drawable/ic_attack_type"
+                android:drawablePadding="@dimen/margin_10"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_15"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:background="@color/color_next_button">
+
+            <Button
+                android:id="@+id/btnDailyTracker"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_bottom_menu"
+                android:drawableTop="@drawable/ic_summary_triggers"
+                android:text="@string/daily_tracker"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/margin_5"
+                android:paddingBottom="@dimen/margin_5"
+                android:layout_marginRight="2dp"/>
+
+            <Button
+                android:id="@+id/btnMyRecords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_bottom_menu"
+                android:drawableTop="@drawable/ic_my_records"
+                android:text="@string/my_records"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/margin_5"
+                android:paddingBottom="@dimen/margin_5"
+                android:layout_marginRight="2dp"/>
+
+            <Button
+                android:id="@+id/btnMyCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_bottom_menu"
+                android:drawableTop="@drawable/icn_migraine_calendar"
+                android:text="@string/my_calendar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/margin_5"
+                android:paddingBottom="@dimen/margin_5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

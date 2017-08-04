@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/icn_export_normal"
+            android:title="@string/export"/>
+        <item
+            android:id="@+id/nav_leave_feedback"
+            android:icon="@drawable/icn_feedback_normal"
+            android:title="@string/leave_feedback" />
+        <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/icn_rate_normal"
+            android:title="@string/rate_us" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icn_settings_normal"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/btn_user_normal"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_how_to_us"
+            android:icon="@drawable/icn_tutorial_normal"
+            android:title="@string/how_to_use" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icn_about_normal"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icn_logout_normal"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
